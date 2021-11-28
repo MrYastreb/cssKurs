@@ -1,0 +1,183 @@
+/* * {
+  padding: 0;
+  margin: 0;
+}*/
+
+body {
+  background-color: #f1e7e7;
+  color: #0f141e;
+
+  font: normal 16px 'Roboto', sans-serif;
+}
+
+a {
+  color: rgb(90, 27, 206);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  }
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: maroon;
+}
+
+.avatar {
+  width: 140px;
+  border-radius: 20px;
+  box-shadow: 16px 18px 14px rgba(0, 0, 0, 025);
+}
+
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+@media (max-width: 500px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.info-text h3 {
+  margin-bottom: 5px;
+}
+
+.info p {
+  color: #86898f;
+  margin: 0; 
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+  /*text-transform: uppercase;*/
+  /*letter-spacing: 5px;*/
+  /*word-spacing: 10px;*/
+}
+
+/*Box model*/
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+/*.dopznaniya {
+  background: greenyellow;
+  padding: 5px 40px; 
+  margin: 10px;
+
+  border: 5px solid rgb(100, 14, 14);
+  border-bottom-style: double;
+  border-top-width: 15px;
+  border-right-color: red;
+}*/
+
+.bg-yellow {
+  background: #e4d487;
+}
+
+.bg-green {
+  background: #acd6b0;
+}
+
+.bg-red {
+  background: #d191b1;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.list {
+  padding: 0 20px;
+  
+}
+
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+ /* padding-bottom: 5px;
+  border-bottom: 2px solid green;*/  
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+/*.table td:nth-child(2),
+.table td:nth-child(3), {
+  color: #c71e72
+}*/ /*ishlamadi*/
+
+/*.table tr:nth-child(even) {
+  background: red;
+}*/
+
+.contact h2 {
+  text-align: center;
+}
+
+ .form-group label {
+   display: block;
+   font-size: 16px;
+   color: #86898f;
+ }
+
+ .form-group input,
+ .form-group textarea {
+   width: 100%;
+   box-sizing: border-box;
+   border: none;
+   /*background: transparent;*/
+   border-bottom: 5px solid #ccc;
+   color: #000;
+   padding: 10px 5px 10px;
+   outline: none;
+   font-family: inherit;
+ }
+
+ .row {
+   display: flex;
+   margin-bottom: 20px;
+ }
+
+ .row > .form-group {
+   width: 50%;
+   margin-left: 20px;
+ }
+
+ .row > .form-group:first-child {
+  margin-left: 0;
+}
+
+.btn {
+  background: rgb(43, 63, 24);
+  padding: 10px 10px;
+  color: beige;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+ 
+
